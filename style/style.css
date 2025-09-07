@@ -1,0 +1,291 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: url('/img/headerbg.jpg')center/cover;
+    height: 100vh;
+}
+menu li a { color: white;
+    padding: 0 10px;}
+.bgboz {background-color: #828181;}
+.bgbozaciq{background-color: #e6e6e6;}
+
+h1 { color: white;
+    font: bold;
+    font-size: 2em;
+    font-family: "Montserrat";}
+h2 {
+    font: normal 1.3em Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #828181;
+    text-align: center; }
+
+h3 {padding: 25px;
+    font-family:"Montserrat";
+}
+h6 {
+    font-family: "Myriad Pro";
+}
+
+
+#search input, #search button {
+    background: #ffffff80;
+    border: none;
+    outline: none;
+    height: 26px;
+    font: 1em 'Myriad Pro';
+    color: #111;
+    padding: 0 1em 
+}
+#search button img { height: 1em; }
+#search input { border-radius: 15px 0 0 15px}
+#search button { border-radius: 0 15px 15px 0; padding: 6px}
+
+.bgag {
+    text-align: center;
+    margin: 30px 0px;
+    hr {width: 5%;} }
+
+.row { margin: 30px 10px; }
+
+#arts {padding: 46px 0px;}
+#arts article {
+    text-align: center; 
+    padding: 23px 15px;
+}
+
+.icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #e1f3e1;
+    color: #54d154;
+    margin: auto;
+    border-radius: 27px;
+    font-size: 3.5em; }
+
+.bgyasil {background-color: #54d154;}
+.bgyasil hr { width:5%;}
+.bgyasil h6 {text-align: center;}
+.bgyasil {padding: 40px 0px;}
+
+ #button {
+    display: flex;
+    justify-content:center;
+    margin: 50px 0px 30px 0px; }
+
+#button button {
+    height: 33px;
+    padding: 8px 20px;
+    border: 1px solid #2b9b2b;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Proxima Nova';
+    color: #2b9b2b; }
+#button button.active, #button button:hover {
+    background-color: #2b9b2b;
+    color: #fff; }
+
+#button button:first-child { border-radius: 1em 0 0 1em;}
+#button button:last-child { border-radius: 0 1em 1em 0;}
+
+
+#image { 
+    display: flex; 
+    flex-wrap: wrap; }
+
+#image img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px; }
+.bgyasil {text-align: center;}
+
+.bgyasil a{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px ;
+    background-color: #2b9b2b;
+    color: #eaf0ea;
+    padding: 5px 15px; }
+.link {margin: 30px 0px;}
+.bgboz h2 { padding: 40px 0px; color: chartreuse;}
+.bgboz hr { width: 5%;}
+.bgboz h6 {text-align: center;}
+
+.slayder { padding: 10px 10px;margin: 20px 20px;}
+.imeg3 {text-align: center;padding-bottom: 50px;}
+
+
+.sinbol {
+    width:33%;
+    height: 80%vh;
+    text-align: center;
+    margin: 20px 20px;
+}
+.sinbol {padding: 10px 10px;margin: 10px 10px;}
+.bgbozaciq {
+    text-align: center;
+    padding-top: 30px;
+    hr {width: 5%;}}
+
+#image2 {
+    display: flex;
+    flex-wrap: wrap;}
+#image2 img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;}
+.bgbozaciq a{
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px ;
+    background-color: #909090;
+    color: #353535;
+    padding: 5px 15px; }
+.kart {margin: 50px 0px;}
+.kart hr {
+    background-color: #111;
+    width: 1px;
+    height:90px;}
+.kart2 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;}
+
+.alinki {
+    width: 100%;
+    height: 20vh;
+    background-color: #2b9b2b;
+    text-align: center;
+    padding-top: 50px;
+}
+.alinki a {
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px ;
+    background-color: #54d154;
+    color: #eaf0ea;
+    padding: 5px 15px; }
+
+.about {
+    padding: 20px 0px;
+    hr {width: 5%;} }
+.elaqe {
+    padding: 20px 10px;
+}
+form input{
+    margin:4px 0px; }
+.sekil img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;}
+.sekil1 {margin-top: 25%;
+    border-radius: 15px; }
+
+footer  {background: #484848;}
+.baki button {
+    width: 100px;
+    height: 20px;
+    background-color:#54d154;}
+.yekun hr {width: 5%;}
+.yekun {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.yeter img {
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;}
+
+.bitdi {text-align: center;background-color: rgb(15, 15, 15);height: 10vh;padding: 20px 0px;color: #fff;}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 5px; }
+
+
+    menu {
+        display: flex;
+        order: -1 }
+
+    #arts { display: flex;}
+    #image {
+        max-width: 980px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    #image img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        margin: 15px;
+        padding: 0;
+    }
+    .slayder {
+        display: flex;}
+
+    .slayder {
+    text-align: center;
+    border: 0px solid;
+    padding:80px 20px 20px 20px;
+    margin:auto;
+    width: 60%;
+    height: 60%;
+}
+#image2 { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#image2 img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 25%;
+    padding: 15px; }
+.anakart {
+    display: flex;
+    justify-content: center;
+    gap: 35px;}
+.about {
+    display: flex;
+    padding: 10px 0px;
+    margin: 0px 0px;}
+
+.yekun {
+    background: #353535;
+    height: 100vh;
+    }
+
+.yeter {
+    display: flex;
+    justify-content: center;
+}
+.yeter img {width: 20%; height: 20%;}
+}
+    
+
+
+
+
