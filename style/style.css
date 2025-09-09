@@ -175,6 +175,11 @@ h6 {
     color: #eaf0ea;
     padding: 5px 15px; }
 
+.yasilreng {background-color:#2b9b2b;}
+.mavireng {background-color: aqua;}
+.qirmizireng {background-color: red;}
+.sarireng {background-color: yellow;}
+
 .about {
     padding: 20px 0px;
     hr {width: 5%;} }
@@ -189,6 +194,15 @@ form input{
     height: 50px;}
 .sekil1 {margin-top: 25%;
     border-radius: 15px; }
+.sekil{
+    width: 400px;
+  }
+.sekil .fizuli {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    margin: 10px 0;
+}
 
 footer  {background: #484848;}
 .baki button {
